@@ -1,0 +1,20 @@
+# Wp-Booilerplate
+This is a boilerplate theme and wp-install to make it very easy to get up and running for a new client wordpress site build.
+
+### Tech Used 
+- Composer
+- npm packages
+- packagist
+- gulp (sass and js compiling)
+- foundation
+
+### Install instructions
+- fork this repo 
+- clone new repo onto local computer
+
+* run `composer install` in `/` of repo (where the composer.json file is)
+* WP plugins are on [Wpackgist](wpackgist.com)
+* edit `.env` to include all credentials for database, sitename, urls, etc
+* rename folder `theme-name` to the client or project name
+* ?????
+* profit
