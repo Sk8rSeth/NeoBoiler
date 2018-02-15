@@ -1,0 +1,48 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.0",
+        "_comment" : "change type to 'library' if you want ACF to be installed in the vendor directory instead of the plugins directory",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "http://connect.advancedcustomfields.com/index.php?p=pro&a=download"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "johnpbloch/wordpress": "*",
+    "vlucas/phpdotenv": "^2.4.0",
+    "wpackagist-plugin/relevanssi": "*",
+    "wpackagist-plugin/simple-image-sizes": "*",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*"
+  },
+  "require-dev": {
+    "wpackagist-plugin/post-duplicator": "*",
+    "wpackagist-plugin/database-sync": "*"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp",
+    "wordpress-plugin-dir": "wp-content/plugin"
+  },
+  "scripts":{
+    "post-install-cmd": [
+      "cp .env-example .env",
+      "rm -rf wp/wp-content",
+      "cd wp-content/themes/theme-name/ && npm i && cp gulp-local-config.swap gulp-local-config.json",
+      "cd wp-content/themes/theme-name/assets && bower install"
+    ],
+    "post-update-cmd": [
+      "rm -rf wp/wp-content"
+    ]
+  }
+}
