@@ -15,8 +15,8 @@ var autoprefixer = require('gulp-autoprefixer');
 
 // Paths for SASS imports
 var sassIncludePaths = [
-    './assets/bower_components/foundation/scss/',
-    './assets/bower_components/bourbon/app/assets/stylesheets/'
+    './assets/node_modules/foundation-sites/scss/',
+    './assets/node_modules/bourbon/app/assets/stylesheets/'
 ];
 
 // Paths for task files
@@ -27,7 +27,7 @@ var paths = {
             'assets/src/js/**/*.js'
         ],
         concat: [
-            'assets/bower_components/jquery/dist/jquery.min.js',
+            'assets/node_modules/jquery/dist/jquery.min.js',
             // add new plugins here
             'assets/src/js/**/*.js'
         ]
