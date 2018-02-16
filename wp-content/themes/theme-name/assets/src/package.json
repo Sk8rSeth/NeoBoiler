@@ -1,0 +1,17 @@
+{
+  "name": "Lucid Boilerplate",
+  "version": "0.1.2",
+  "description": "This is a Boilerpplate to streamline the build process",
+  "main": "",
+  "repository": {
+    "url": "https://github.com/Sk8rSeth/wp-boilerplate",
+    "type": "git"
+  },
+  "author": "Seth Howell <showell@lucidagency.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bourbon": "^4.2.7",
+    "foundation-sites": "^6.4.4-rc1"
+  },
+  "private": true,
+}
