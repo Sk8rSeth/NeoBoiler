@@ -7,6 +7,7 @@ This is a boilerplate theme and wp-install to make it very easy to get up and ru
 - packagist
 - gulp (sass and js compiling)
 - foundation
+- yarn (on your local machine - `brew install yarn` or `npm install --global yarn`)
 
 ### Install instructions
 * fork this repo
