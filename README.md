@@ -9,8 +9,9 @@ This is a boilerplate theme and wp-install to make it very easy to get up and ru
 - foundation
 
 ### Install instructions
-- fork this repo
-- clone new repo onto local computer
+* fork this repo
+* clone new repo onto local computer
+* update `composer.json` to include the LUCID ACF-Pro license key in the `&k={license_key}` section
 
 * run `composer install` in `/` of repo (where the composer.json file is)
 * WP plugins are on [Wpackgist](wpackgist.com)
