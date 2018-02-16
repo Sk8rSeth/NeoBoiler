@@ -38,8 +38,8 @@
     "post-install-cmd": [
       "cp .env-example .env",
       "rm -rf wp/wp-content",
-      "cd wp-content/themes/theme-name/ && npm i && cp gulp-local-config.swap gulp-local-config.json",
-      "cd wp-content/themes/theme-name/assets && bower install"
+      "cd wp-content/themes/theme-name/ && npm i",
+      "cd wp-content/themes/theme-name/assets && yarn install"
     ],
     "post-update-cmd": [
       "rm -rf wp/wp-content"
