@@ -11,7 +11,7 @@ This is a boilerplate theme and wp-install to make it very easy to get up and ru
 ### Install instructions
 * fork this repo
 * clone new repo onto local computer
-* update `composer.json` to include the LUCID ACF-Pro license key in the `&k={license_key}` section
+* update `.env-example` to include the LUCID ACF-Pro license key in the `ACF_PRO_KEY="{ACF_PRO_KEY}"` section
 
 * run `composer install` in `/` of repo (where the composer.json file is)
 * WP plugins are on [Wpackgist](wpackgist.com)
