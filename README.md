@@ -1,6 +1,6 @@
 # Wp-Booilerplate
 This is a boilerplate theme and wp-install to make it very easy to get up and running for a new client wordpress site build.
-this is designed around MODULAR builds with ACF-pro. can be used however but a lot of the functionality has that at the core. 
+this is designed around MODULAR builds with ACF-pro. can be used however but a lot of the functionality has that at the core.
 
 ### Tech Used
 - Composer
@@ -9,11 +9,14 @@ this is designed around MODULAR builds with ACF-pro. can be used however but a l
 - gulp (sass and js compiling)
 - foundation
 - yarn (on your local machine - `brew install yarn` or `npm install --global yarn`)
+- ACF-PRO
+- FontAwesome5 (free)
+
 
 ### Install instructions
 * fork this repo
 * clone new repo onto local computer
-* update `.env-example` to include the LUCID ACF-Pro license key in the `ACF_PRO_KEY="{ACF_PRO_KEY}"` section
+* update `.env-example` to include the ACF-Pro license key in the `ACF_PRO_KEY="{ACF_PRO_KEY}"` section
 
 * run `composer install` in `/` of repo (where the composer.json file is)
 * WP plugins are on [Wpackgist](wpackgist.com)
