@@ -5,3 +5,4 @@ wp-content/uploads
 composer.lock
 .env
 wp-content/debug.log
+node_modules/

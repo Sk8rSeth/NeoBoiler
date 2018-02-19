@@ -21,6 +21,8 @@ this is designed around MODULAR builds with ACF-pro. can be used however but a l
 * run `composer install` in `/` of repo (where the composer.json file is)
 * WP plugins are on [Wpackgist](wpackgist.com)
 * edit `.env` to include all credentials for database, sitename, urls, etc
+* *if using laravel homestead, edit `.env example` and homestead's `.yaml` configuration to create new database and access it via homesteads defualt UN and password `homestead` - `secret`*
+
 * rename folder `theme-name` to the client or project name
 * after composer and npm have installed all dependencies, running `gulp` will start Watch tasks for you and minify JS and SCSS->CSS into assets folder
 * ?????
