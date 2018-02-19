@@ -15,8 +15,9 @@ var autoprefixer = require('gulp-autoprefixer');
 
 // Paths for SASS imports
 var sassIncludePaths = [
-    './assets/node_modules/foundation-sites/scss/',
-    './assets/node_modules/bourbon/app/assets/stylesheets/'
+    './assets/src/node_modules/foundation-sites/scss/',
+    './assets/src/node_modules/bourbon/app/assets/stylesheets/',
+    './assets/src/node_modules/@fortawesome/fontawesome-free-webfonts/scss/'
 ];
 
 // Paths for task files
