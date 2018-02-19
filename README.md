@@ -1,5 +1,6 @@
 # Wp-Booilerplate
 This is a boilerplate theme and wp-install to make it very easy to get up and running for a new client wordpress site build.
+this is designed around MODULAR builds with ACF-pro. can be used however but a lot of the functionality has that at the core. 
 
 ### Tech Used
 - Composer
