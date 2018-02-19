@@ -53,3 +53,6 @@
 @import "fa-solid.scss";
 @import "fa-regular.scss";
 @import "fa-brands.scss";
+
+// include all other files after this
+@import "/partials/navbar";
