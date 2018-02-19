@@ -3,7 +3,7 @@
 // Defines our global data variable for modules
 global $data;
 
-define( 'FUNC_DIR', dirname(__FILE__) . '/functions/'))
+define( 'FUNC_DIR', dirname(__FILE__) . '/functions/');
 define( 'THEME_DIR', dirname(__FILE__) );
 
 include FUNC_DIR . 'custom-functions.php';
