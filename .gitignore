@@ -1,6 +1,7 @@
 vendor
 wp
 wp-content/plugins
+wp-content/uploads
 composer.lock
 .env
 wp-content/debug.log

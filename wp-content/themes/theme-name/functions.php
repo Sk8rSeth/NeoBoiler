@@ -11,6 +11,4 @@ include FUNC_DIR . 'ajax-functions.php';
 include FUNC_DIR . 'theme-enables.php';
 include FUNC_DIR . 'enqueues.php';
 include FUNC_DIR . 'nav-walker.php';
-
-// include additional function files here
-// ex. custom-post-types.php
+include FUNC_DIR . 'custom-post-types.php';
