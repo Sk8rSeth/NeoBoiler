@@ -38,12 +38,12 @@
     "post-install-cmd": [
       "cp .env-example .env",
       "rm -rf wp/wp-content",
-      "cd wp-content/themes/theme-name/ && npm i",
+      "cd wp-content/themes/theme-name/ && yarn install",
       "cd wp-content/themes/theme-name/assets/src && yarn install"
     ],
     "post-update-cmd": [
         "cp .env-example .env",
-        "cd wp-content/themes/theme-name/ && npm i",
+        "cd wp-content/themes/theme-name/ && yarn install",
         "cd wp-content/themes/theme-name/assets/src && yarn install",
         "rm -rf wp/wp-content"
     ]
