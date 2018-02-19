@@ -28,7 +28,7 @@ var paths = {
             'assets/src/js/**/*.js'
         ],
         concat: [
-            'assets/node_modules/jquery/dist/jquery.min.js',
+            'assets/src/node_modules/jquery/dist/jquery.min.js',
             // add new plugins here
             'assets/src/js/**/*.js'
         ]
