@@ -35,7 +35,7 @@ var paths = {
     },
     sync: [
         'assets/css/**/*.css',
-        'assets/js/app.js',
+        'assets/js/all.js',
         '**/*.php'
     ]
 }
@@ -86,11 +86,11 @@ gulp.task('js', function() {
     return gulp.src(paths.js.concat)
         .pipe(plumber({errorHandler: handleError}))
         .pipe(sourcemaps.init())
-        .pipe(concat('app.js'))
+        .pipe(concat('all.js'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('assets/js'))
         .pipe(notify('JS Saved'))
-        .pipe(rename('app.min.js'))
+        .pipe(rename('all.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('assets/js'))
         .pipe(notify('JS Minified'));
