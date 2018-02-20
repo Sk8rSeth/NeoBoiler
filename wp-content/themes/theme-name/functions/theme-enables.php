@@ -22,8 +22,8 @@ register_nav_menus(array(
 function add_options_pages() {
   if (!function_exists('acf_add_options_page')) return;
   $args = array(
-    'page_title' => 'Theme Settings',
-    'menu_title' => 'Settings',
+    'page_title' => 'Global Theme Options',
+    'menu_title' => 'Global Options',
     'capability' => 'edit_posts',
     'icon_url' => 'dashicons-admin-settings'
   );
