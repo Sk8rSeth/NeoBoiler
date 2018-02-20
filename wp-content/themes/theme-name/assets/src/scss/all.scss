@@ -55,5 +55,7 @@
 @import "fa-regular.scss";
 @import "fa-brands.scss";
 
+@import 'normalize';
+
 // include all other files after this
 @import "/partials/navbar";
