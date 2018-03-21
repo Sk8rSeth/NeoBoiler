@@ -23,6 +23,7 @@
     "johnpbloch/wordpress": "*",
     "vlucas/phpdotenv": "^2.4.0",
     "wpackagist-plugin/relevanssi": "*",
+    "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/simple-image-sizes": "*",
     "advanced-custom-fields/advanced-custom-fields-pro": "*"
   },
