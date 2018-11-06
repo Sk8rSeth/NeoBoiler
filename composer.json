@@ -29,7 +29,7 @@
   },
   "require-dev": {
     "wpackagist-plugin/post-duplicator": "*",
-    "apackagist-plugin/wp-migrate-db": "*"
+    "wpackagist-plugin/wp-migrate-db": "*"
   },
   "extra": {
     "wordpress-install-dir": "wp",
