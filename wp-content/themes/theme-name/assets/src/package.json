@@ -1,13 +1,13 @@
 {
-  "name": "Lucid-Boilerplate",
-  "version": "0.1.2",
+  "name": "Boilerplate",
+  "version": "0.1.3",
   "description": "This is a Boilerpplate to streamline the build process",
   "main": "",
   "repository": {
     "url": "https://github.com/Sk8rSeth/wp-boilerplate",
     "type": "git"
   },
-  "author": "Seth Howell <showell@lucidagency.com>",
+  "author": "Seth Howell",
   "license": "MIT",
   "dependencies": {
     "bourbon": "^4.2.7",
