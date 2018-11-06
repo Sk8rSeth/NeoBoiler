@@ -12,6 +12,7 @@ var plumber = require('gulp-plumber');
 var cleanCSS = require('gulp-clean-css');
 var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
+var sassGlob = require('gulp-sass-glob');
 
 // Paths for SASS imports
 var sassIncludePaths = [
@@ -65,6 +66,7 @@ gulp.task('css', function() {
     return gulp.src(paths.scss)
         .pipe(plumber({errorHandler: handleError}))
         // .pipe(sourcemaps.init())
+        .pipe(sassGlob())
         .pipe(sass({
             includePaths: sassIncludePaths
         }))
