@@ -22,14 +22,14 @@
     "php": ">=7.0",
     "johnpbloch/wordpress": "*",
     "vlucas/phpdotenv": "^2.4.0",
-    "wpackagist-plugin/relevanssi": "*",
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/simple-image-sizes": "*",
+    "wpackagist-plugin/woocommerce": "^3.5.0",
     "advanced-custom-fields/advanced-custom-fields-pro": "*"
   },
   "require-dev": {
     "wpackagist-plugin/post-duplicator": "*",
-    "wpackagist-plugin/database-sync": "*"
+    "apackagist-plugin/wp-migrate-db": "*"
   },
   "extra": {
     "wordpress-install-dir": "wp",
