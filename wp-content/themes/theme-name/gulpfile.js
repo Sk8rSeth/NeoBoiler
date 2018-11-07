@@ -33,6 +33,7 @@ var paths = {
         concat: [
             'assets/src/node_modules/jquery/dist/jquery.min.js',
             'assets/src/node_modules/slick-carousel/slick/slick.min.js',
+            'assets/src/node_modules/foundation-sites/dist/js/foundation.js',
             // add new plugins here
             'assets/src/js/**/*.js'
         ]
