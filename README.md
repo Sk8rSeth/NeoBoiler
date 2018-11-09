@@ -27,6 +27,7 @@ this is designed around MODULAR builds with ACF-pro. can be used however but a l
 * after composer and npm have installed all dependencies, running `gulp` will start Watch tasks for you and minify JS and SCSS->CSS into assets folder
 * ?????
 * profit
+* **NOTE:** if using ACF flexible content beautifier, add thumbnails from designs into `/assets/bea-beautiful-flexible` folder with the naming convention -> Flexible Key (offset_content) but with _DASHES_ instead of underscores and the file extension (.jpg or .png) -> (offset-content.jpg)
 
 * delete everything above this line and fill in the info below by replacing the double underscore text, to keep track of projects
 ___
