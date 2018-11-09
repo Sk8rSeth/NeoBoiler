@@ -29,6 +29,7 @@
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/simple-image-sizes": "*",
     "wpackagist-plugin/woocommerce": "^3.5.0",
+    "wpackagist-plugin/bea-beautiful-flexible": "*",
     "advanced-custom-fields/advanced-custom-fields-pro": "*"
   },
   "require-dev": {
