@@ -8,7 +8,7 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "*",
+        "version": "5.7.7",
         "_comment" : "change type to 'library' if you want ACF to be installed in the vendor directory instead of the plugins directory",
         "type": "wordpress-plugin",
         "dist": {
@@ -41,8 +41,10 @@
     "wordpress-plugin-dir": "wp-content/plugin"
   },
   "scripts":{
+    "pre-update-cmd": [
+        "cp .env-example .env",
+    ],
     "post-install-cmd": [
-      "cp .env-example .env",
       "rm -rf wp/wp-content",
       "cd wp-content/themes/theme-name/ && yarn install",
       "cd wp-content/themes/theme-name/assets/src && yarn install"
