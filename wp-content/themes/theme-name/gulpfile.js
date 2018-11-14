@@ -20,7 +20,9 @@ var sassIncludePaths = [
     './assets/src/node_modules/bourbon/app/assets/stylesheets/',
     './assets/src/fontawesome-css/scss/',
     './assets/src/node_modules/hamburgers/_sass/hamburgers/',
-    './assets/src/node_modules/normalize.css/'
+    './assets/src/node_modules/normalize.css/',
+    './assets/src/node_modules/animate.css/'
+
 ];
 
 // Paths for task files
