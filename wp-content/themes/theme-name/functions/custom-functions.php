@@ -35,7 +35,10 @@ function admin_render($name){
 **/
 function frontend_render($name){
 
-	global $filename, $module;
+	global $filename;
+	if ($module == '') {
+		global $module;
+	}
 	$base_path = THEME_DIR . '/views/frontend';
 	$filename = $base_path . '/' . $name . '.php';
 	do_action('before_frontend_render');
@@ -110,4 +113,11 @@ function sort_by_specified_key($array, $key, $desc = false){
 	if( $desc ) $array = array_reverse($array);
 
 	return $array;
+}
+
+function dd($data = '') {
+	if(!empty($data)) {
+		var_dump($data);
+	}
+	die();
 }
